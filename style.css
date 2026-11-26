@@ -1,0 +1,288 @@
+/* 基本 */
+
+@charset "utf-8";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* 全体 */
+
+body{
+    color: #222;
+    background-color: #fff;
+}
+
+
+
+/* ヘッダー */
+
+header{
+    background-color: #f2f2f2;
+    padding: 0 0 60px;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+/* ロゴ */
+
+.logo{
+    background-color: #fff;
+    padding: 20px 0;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+
+
+/* コピー */
+
+.copy{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* コピー見出し */
+
+.copy h1{
+    font-size: 36px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 32ppx;
+    line-height: 1.4;
+}
+
+/* コピー本文 */
+
+.copy p {
+    font-size: 16px;
+    color: #000;
+    line-height: 1.75;
+    margin-bottom: 5px;
+}
+
+
+
+/* メインセクション */
+
+section{
+    max-width: 1200px;
+    margin: 150px auto;
+}
+
+section h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* セクション補足ラベル */
+
+.section-label{
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.section-title{
+    font-size: 28px;
+    font-weight: bold;
+    color: #000;
+}
+
+/* ボタン */
+
+.btn-detail {
+    border: 2px solid #1571da;
+    background-color: #fff;
+    color: #1571da;
+    display: block;
+    width: 180px;
+    height: 50px;
+    margin: 40px auto 0;
+    padding: 0 40px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-detail:hover{
+    background-color: #f0f7ff;
+}
+
+
+
+/* 理由 */
+
+.reason-cards{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+/* 理由カード本体 */
+
+.card-reason{
+    background: url("https://placehold.jp/9197ee/ffffff/400x300.png?text=bg-img") center top / cover no-repeat;
+    width: 380px;
+    min-height: 280px;
+    padding: 20px 0;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 54px;
+    align-items: center;
+    justify-content: center;
+    text-align: center
+}
+
+.card-reason-number{
+    font-size: 60px;
+    font-weight: bold;
+    color: #999;
+}
+
+.card-reason-text{
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+
+/* 機能 */
+
+.func-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px 30px;
+    margin-bottom: 40px;
+}
+
+/* 共通 */
+
+.card-func{
+    background: #f2f2f2;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+/* 大カード */
+
+.card-func.large{
+    width: 565px;
+    padding: 30px 40px;
+}
+
+/* 小カード */
+
+.card-func.small{
+    width: 366px;
+    padding: 40px;
+}
+
+/* アイコン */
+
+.card-func-icon{
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: #999;
+}
+
+/* 小カードアイコン */
+
+.card-func.small .card-func-icon{
+    width: 100px;
+    height: 100px;
+}
+
+/* テキスト領域 */
+
+.card-func.text{
+    flex: 1;
+}
+
+/* 機能タイトル */
+
+.card-func-text h3{
+    font-size: 20px;
+    color: #1571da;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+
+/* 機能説明 */
+
+.card-func-text p{
+    font-size: 16px;
+    color: #000;
+    line-height: 1.75;
+}
+
+/* 企業ロゴ */
+
+.logo-carp-cards{
+    border: 2px solid #f2f2f2;
+    padding: 60px;
+    display: wrap;
+    gap: 20px 0;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+/* ロゴカード */
+
+.card-logo{
+    width: 156px;
+    height: 60px;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: #999;
+}
+
+/* 採用カード */
+
+.recruit-cards{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+/* 採用カード本体 */
+
+.card-recruit{
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+/*採用画像 */
+
+.card-recruit-imp{
+    height: 200px;
+    object-fit: cover;
+}
